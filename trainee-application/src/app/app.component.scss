@@ -1,0 +1,13 @@
+$header-background-color: #1d72c7;
+$header-color: white;
+$font-stack: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+.header {
+  top: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: $header-background-color;
+  color: $header-color;
+  font-family: $font-stack;
+}
